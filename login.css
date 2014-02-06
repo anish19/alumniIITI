@@ -1,0 +1,25 @@
+#login_wrap{
+	background-color: white;
+	margin:0 auto;
+	width:960px;
+	height:450px;
+	padding-top: 10px;
+	position:relative;
+}
+
+#login_wrap h1,p{
+	margin-left: 20px;
+}
+
+#login_wrap #login{
+	position:relative;
+	margin-left: 20px;
+}
+
+#login_wrap #warning{
+	color:red;
+}
+
+header #wrap #heading nav {
+	visibility:hidden;
+}

@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^home.php$ search_alumni.php

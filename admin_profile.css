@@ -1,0 +1,65 @@
+/* Style of alum_profile begins here*/
+#profile_wrap {
+  background-color: #fff;
+  position:relative;
+  width:960px;
+  height:300px;
+  margin:0 auto;
+  padding-top: 16px;
+  
+}
+
+#profile_wrap #profile {
+  font-size: 100%;
+  
+}
+
+#profile_wrap #profile  p #w{
+  position:relative;
+  font-size: 30px;
+  color:#9C2626;
+  margin-left:20px;
+  background:#999999;
+  width:150px;
+  font-family:Segoe UI Light,  Sans-Serif;
+  
+  }
+ 
+
+#profile_wrap #profile  p #a{
+background-color:white;
+  font-size: 30px;
+  color:#9C2626;
+  margin-left:20px;
+  width:50px;
+  font-family:arial;
+  }
+ #profile_wrap #profile  a{
+	position:absolute;
+	margin-top:80px;
+	margin-left:30px;
+	font-size: 20px;
+	color:blue;
+	text-decoration:none;
+ }
+ 
+ #profile_wrap #profile   #con{
+	
+	margin-left:400px;
+	font-size: 20px;
+	color:blue;
+	text-decoration:none;
+ }
+ 
+ #profile_wrap #profile   #add{
+	
+	margin-left:30px;
+	font-size: 20px;
+	color:blue;
+	text-decoration:none;
+ }
+ #profile_wrap #con_text{
+	padding-top:20px;
+	font-family:times new roman;
+	font-size:20px;
+ }

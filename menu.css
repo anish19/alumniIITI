@@ -1,0 +1,106 @@
+/**
+ *********************************************
+ * Prototype of styles for horizontal CSS-menu
+ * @data 25.01.2010
+ *********************************************
+ * (X)HTML-scheme:
+ *  <div id="menu">
+ *      <ul class="menu">
+ *          <li><a href="#" class="parent"><span>level 1</span></a>
+ *              <div><ul>
+ *                  <li><a href="#" class="parent"><span>level 2</span></a>
+ *                      <div><ul><li><a href="#"><span>level 3</span></a></li></ul></div>
+ *                  </li>
+ *              </ul></div>
+ *          </li>
+ *          <li class="last"><a href="#"><span>level 1</span></a></li>
+ *      </ul>
+ *  </div>
+ *********************************************
+ */
+
+/* menu::base */
+#menu {
+    position:relative;
+    z-index:100;
+    height:32 px;
+}
+#menu .menu {
+    position:absolute;
+    width:960px;
+    
+}
+#menu * {
+    list-style:none;
+    border:0;
+    padding:0;
+    margin:0;
+}
+#menu a {
+    display:block;
+    padding-top:5px;
+    padding-bottom: 2px;
+    text-align: center;
+    white-space:nowrap;
+    
+}
+#menu li {
+    float:left;
+    background:#000;
+    width:21.5%;
+}
+
+#menu #home{
+    width:14%;
+}
+
+/* menu::special styles */
+/* menu::level 1 */
+#menu a {
+    text-decoration:none;
+    color:#000;
+    position:relative;
+    z-index:77;
+}
+#menu a:hover {
+   background-color: #b30c0c; 
+/**   background:url(images/back2.png);*/
+    color:#f4f4f2;
+}
+#menu a:hover span { color:#f4f4f2; }
+#menu>ul>li:hover>a {
+    background-color:#63bdf6; 
+    color:#f4f4f2;
+}
+#menu>ul>li:hover>a span { color:#f4f4f2; }
+#menu span {
+    /*text-transform:uppercase;*/
+    font:20px/20px strong;
+     /**'Trebuchet MS', Arial, Helvetica, Sans-serif*/
+    
+    font-family:Segoe UI Light, Sans-Serif;
+    color:#000;
+}
+#menu li { background:none; /**background of menu*/}
+/* menu::level >= 2 */
+
+#menu li div { background-color: #63bdf6; 
+/**   background:url(images/back2.png);*/}
+/** <fix for ie6> */
+div#menu li.back {
+    width:10px;
+    height:32px;
+    z-index:8;
+    position:absolute;
+}
+div#menu li.back .left {
+    width:auto;
+    height:31px;
+    float:none;
+    position:relative;
+    top:0;
+    left:0;
+    visibility:visible;
+}
+
+div#copyright { display: none; }

@@ -1,0 +1,95 @@
+/* Style of alum_profile begins here*/
+.wrap_400{
+  background-color: #f4f4f2;
+}
+.wrap_400 #line{
+  background-color: white;
+  height: 30px;
+  position:relative;
+  width:960px;
+  margin:0 auto;
+}
+
+.wrap_400 #line p{
+  position:relative;
+  width:934px;
+  top:-15px;
+  float:left;
+  font-size: 20px;
+  margin-left: 13px;
+}
+
+.wrap_400 #line p a{
+  display: inline-block;
+  float:right;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 16px;
+  color:#b30c0c;
+}
+
+.drop-shadow {
+  position:relative;
+  float:left;
+  width:40%;    
+  padding:0.5em; 
+  margin:1em 10px 4em; 
+  background:#fff;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.drop-shadow:before,
+.drop-shadow:after {
+  content:"";
+  position:absolute; 
+  z-index:-2;
+}
+
+.drop-shadow p {
+  text-align: center;
+  position:relative;
+  top: -15px;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.raised {
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.wrap_400 #profile{
+  position:relative;
+  width :600px;
+  float : right;
+
+}
+
+.wrap_400 #profile table{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 18px;
+  
+}
+
+.wrap_400 #profile table td{
+  text-align: left;
+  vertical-align: top;
+  padding-top: 10px;
+  min-height: 45px; 
+  font-family: calibri;
+
+}
+
+.wrap_400 #profile table .heading{
+  width:200px;
+  color: #b30c0c;  
+  opacity:0.7;
+  font-family: Comic sans MS;
+}
+
+
+
